@@ -17,7 +17,7 @@
 
     <properties>
         <spring.boot.version>2.0.1</spring.boot.version>
-        <spring.framework.version>5.0.5.RELEASE</spring.framework.version>
+        <spring.framework.version>5.1.0.RELEASE</spring.framework.version>
         <swagger.version>2.8.0</swagger.version>
         <junit.version>5.2.0</junit.version>
         <dubbo.boot.version>0.1.0</dubbo.boot.version>
