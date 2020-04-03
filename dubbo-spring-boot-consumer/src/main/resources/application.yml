@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: dubbo-consumer
+dubbo:
+  scan:
+    base-packages: com.lk.aggregation.controller
+  consumer:
+    check: false
+  application:
+    id: dubbo-consumer
+    name: dubbo-consumer
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    check: false
